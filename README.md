@@ -1,12 +1,10 @@
-# CPPND: Program a Concurrent Traffic Simulation
-
-## Starter code from: https://github.com/udacity/CppND-Program-a-Concurrent-Traffic-Simulation
+# CPP: Concurrent Traffic Simulation
 
 ## Ubuntu - setup OpenCV 4.1:
 1. Download OpenCV, cd to opencv
 2. mkdir build
 3. cd build
-4. export OpenCV_DIR=~/class/udacity/c++/concurrency/opencv/build
+4. export OpenCV_DIR=~/class/c++/concurrency/opencv/build
 5. sudo apt-get install libgtk2.0-dev pkg-config
 6. cmake ..
 7. make
@@ -14,10 +12,8 @@
 ## The original README starts here...
 
 <img src="data/traffic_simulation.gif"/>
-
-This is the project for the fourth course in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213): Concurrency. 
-
-Throughout the Concurrency course, you have been developing a traffic simulation in which vehicles are moving along streets and are crossing intersections. However, with increasing traffic in the city, traffic lights are needed for road safety. Each intersection will therefore be equipped with a traffic light. In this project, you will build a suitable and thread-safe communication protocol between vehicles and intersections to complete the simulation. Use your knowledge of concurrent programming (such as mutexes, locks and message queues) to implement the traffic lights and integrate them properly in the code base.
+ 
+Throughout the Concurrency, you have been developing a traffic simulation in which vehicles are moving along streets and are crossing intersections. However, with increasing traffic in the city, traffic lights are needed for road safety. Each intersection will therefore be equipped with a traffic light. In this project, you will build a suitable and thread-safe communication protocol between vehicles and intersections to complete the simulation. Use your knowledge of concurrent programming (such as mutexes, locks and message queues) to implement the traffic lights and integrate them properly in the code base.
 
 ## Dependencies for Running Locally
 * cmake >= 2.8
